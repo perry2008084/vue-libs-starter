@@ -1,0 +1,23 @@
+{
+  "name": "@multi-vue-lib/docs",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vitepress dev src",
+    "build": "vitepress build src",
+    "preview": "vitepress preview src"
+  },
+  "dependencies": {
+    "@multi-vue-lib/element-components": "workspace:*",
+    "@multi-vue-lib/vant-components": "workspace:*",
+    "element-plus": "^2.3.14",
+    "vant": "^4.6.6",
+    "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.3.4",
+    "markdown-it": "^13.0.1",
+    "vitepress": "^1.6.4"
+  }
+}

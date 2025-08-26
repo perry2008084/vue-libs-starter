@@ -1,0 +1,12 @@
+:root {
+  --vp-c-brand: #646cff;
+  --vp-c-brand-light: #747bff;
+}
+
+.mobile-demo {
+  max-width: 375px;
+  margin: 0 auto;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
